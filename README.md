@@ -5,6 +5,6 @@ The template file contains the information to compare with a device configuratio
 
 The template must only contains hierarchical items which you want to compare with the device configurations. Also you can specify one or more optional hierarchical configuration items after the "# Grouped optional config items" line in the template file. Multiple of these lines can be present to specify one or more optional items. Furthermore the <<>> 'sign' can be used as wildcard in the template file. At last, don't forget to put a "!" at the last line of the template file as this is used as a seperator.
 
-I think there are some self explanatory template items (starting with #) to include or exclude items from the template definitions. The logic of the script is tested with a large base of layer-2 switches. So hopefully all the bugs have run away. The result of the comparison is presented in the "complaincy_result.txt" text file.
+I think there are some self explanatory template items (starting with #) to include or exclude items from the template definitions. The logic of the script is tested with a large base of layer-2 switches. So hopefully all the bugs have run away. The result of the comparison is presented in the "complaincy_result.txt" text file which is returned by the script when you run it.
 
 Hans Verkerk - November 2020
