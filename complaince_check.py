@@ -6,7 +6,9 @@ from utils import unpack_optional_items, hierarc_cfg_diff
 def complaince_check(config, template):
 
     """
+    Function compares device configuration with device template
     """
+
     result = []
     total_errors = 0
     
