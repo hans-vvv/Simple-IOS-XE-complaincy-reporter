@@ -1,5 +1,4 @@
 # Simple-IOS-XE-complaincy-reporter
-Simple IOS-XE complaincy reporter
 This script reads one or more Cisco IOS-XE based configurations and compare these with a template configuration. Both global and hierarchical configuration items can be compared. The main.py file runs the script. In the backup directory the configurations of the network elements must be present. Three basic functions are used to get the job done, a function to parse the configuration template, a function to parse a IOS-XE configuration file and a function to compare a parsed template and a parsed configuration.
 
 The template file contains the information to compare with a device configuration. The basic idea is to define all mandatory global configuration items and to define the items which must be ignored in the comparison of the items of the device configurations. This enables you to present global configuration items which are missing in the device configuration but are present in the template and you to present items which are not present in the template but are present in the device configuration. 
